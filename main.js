@@ -25,5 +25,5 @@ let Jmeno = prompt("Napiš své jméno a příjmení.");
 let vek = Number(prompt("Kolik je vám let?")); 
 let barva = prompt("Jaká je veše nejoblíbenější barva anglicky");
 document.body.innerHTML += "<p class='odstavec'>" + Jmeno + "; " + vek + "</p>";
-document.querySelector('.odstavec')
-odstavec.style.color = 'barva'
+const odstavec = document.querySelector('.odstavec')
+odstavec.style.color = barva;
